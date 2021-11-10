@@ -10,7 +10,7 @@ namespace Branch.Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("First feature");
+            Console.WriteLine("");
         }
     }
 }
