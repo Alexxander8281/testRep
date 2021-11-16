@@ -14,7 +14,10 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var user = new user { age = 10, name = "MK" };
-            string json1 = JsonSerializer.Serialize();
+            string json1 = JsonSerializer.Serialize(user);
+            Console.WriteLine(json1);
+            Console.ReadKey();
+            Console.WriteLine();
 
         }
     }
