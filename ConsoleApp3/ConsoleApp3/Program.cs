@@ -29,7 +29,10 @@ namespace ConsoleApp3
                 i++;
             }
             Console.WriteLine("Third cycle");
-
+            foreach (var a in list)
+            {
+                Console.WriteLine(a);
+            }
 
             Console.ReadKey();
 
