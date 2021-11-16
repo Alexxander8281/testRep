@@ -13,13 +13,25 @@ namespace ConsoleApp3
             var list = new List<int>() { 1, 2, 3, 4 };
             // var list = new List<int>();
             //list.AddRange(new int[] { 7, 8, 9 });
-            for (int i = 0; i < list.Count; i++)
+            var i = 0;
+            Console.WriteLine("First cycle");
+            for (i = 0; i < list.Count; i++)
             {
                 Console.WriteLine(list[i]);
+            
             }
-            Console.ReadKey();
-            Console.WriteLine("First cycle");
 
+            Console.WriteLine("Second cycle");
+            i = 0;
+            while (list.Count>i)
+           {
+                Console.WriteLine(list[i]);
+                i++;
+            }
+            Console.WriteLine("Third cycle");
+
+
+            Console.ReadKey();
 
         }
     }
